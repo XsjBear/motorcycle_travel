@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>motorcycle_travel_api</module>
+        <module>motorcycle_travel_service</module>
     </modules>
 
 

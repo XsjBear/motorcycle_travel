@@ -22,10 +22,24 @@ import java.io.Serializable;
 @Builder
 public class DataRO<T> implements Serializable {
 
+    /**
+     * 结果编码
+     */
     private int code = CommonCode.SUCCESS_CODE;
+
+    /**
+     * 结果描述
+     */
     private String msg = "";
+
+    /**
+     * 接口返回内容
+     */
     private T data = null;
 
+    /**
+     * 默认成功返回msg
+     */
     public final static String DEFAULT_SUCCESS_MESSAGE = "请求成功";
 
     /**
